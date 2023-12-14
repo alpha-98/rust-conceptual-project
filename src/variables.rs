@@ -1,4 +1,9 @@
 pub fn intro() {
+    /*
+        SYNTAX:
+        let/const <variable_name>: <data_type> = expression;
+    */
+
     println!("----------");
     // Variables are immutable by default.
     let num = 5; // immutable : When a variable is immutable, once a value is bound to a name, you can’t change that value
@@ -19,8 +24,10 @@ pub fn intro() {
     // const are delcared and initialize at same time.
 
     // const mut NUM: i32 = 10; // Error: cannot be mutable
-    // const NUM;
-    // NUM =10; // Error : cannot assign to this expression
+    /* 
+    const NUM;
+    NUM =10; // Error : cannot assign to this expression
+    */
     const NUM_3: i32 = 5;
     println!("Number3 : {}", NUM_3);
     
