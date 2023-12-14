@@ -12,9 +12,19 @@ pub fn intro() {
     */
 
    println!("Num : {}", another_function(10));
+   println!("{}", function_return_expression(20));
+//    println!("{}", function_return_statement(20));
 }
 
 fn another_function(num: i32) -> i32 {
     println!("Called another_function");
     return num;
 }
+
+fn function_return_expression(x: i32) -> i32 {
+    x + 1 // it's an expession without semicolon
+}
+
+// fn function_return_statement(x: i32) -> i32 {
+//     x + 1; // it's a statement with semicolon // Error
+// }

@@ -17,7 +17,7 @@ fn main() {
     */ 
 
     println!("Hello, world!");
-    variables::intro();
-    functions::intro();
+    // variables::intro();
+    // functions::intro();
     // datatypes::intro();
 }
