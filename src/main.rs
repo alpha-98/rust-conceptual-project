@@ -1,3 +1,4 @@
+mod variables;
 fn main() {
     // main function is the entry point into the program.
 
@@ -13,4 +14,5 @@ fn main() {
     */ 
 
     println!("Hello, world!");
+    variables::intro();
 }
